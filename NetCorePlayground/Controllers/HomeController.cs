@@ -12,6 +12,7 @@ namespace NetCorePlayground.Controllers
     {
         public IActionResult Index()
         {
+            var a = User.IsInRole("role1");
             return View();
         }
 
